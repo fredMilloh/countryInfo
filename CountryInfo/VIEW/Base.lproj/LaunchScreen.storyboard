@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Plan de travail 1" translatesAutoresizingMaskIntoConstraints="NO" id="oTy-24-4na">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COUNTRY  INFO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pe6-18-WX3">
+                                <rect key="frame" x="189.5" y="130" width="288.5" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="HyT-0J-7GX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="34"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="oTy-24-4na" secondAttribute="trailing" id="30k-fO-YxB"/>
+                            <constraint firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="50r-BR-AHP"/>
+                            <constraint firstItem="oTy-24-4na" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="AE5-WA-OcS"/>
+                            <constraint firstItem="Pe6-18-WX3" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="LYV-oS-JYf"/>
+                            <constraint firstAttribute="bottom" secondItem="oTy-24-4na" secondAttribute="bottom" id="MLa-6O-m78"/>
+                            <constraint firstItem="oTy-24-4na" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="cOo-rS-vGP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="cUj-7K-xc3"/>
+                            <constraint firstItem="Pe6-18-WX3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="130" id="hld-hP-RoF"/>
+                            <constraint firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="o4u-SJ-9PX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Plan de travail 1" width="750" height="1334"/>
+    </resources>
+</document>
