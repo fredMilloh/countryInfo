@@ -16,7 +16,7 @@ class QueryService {
     {}
 
     func getCountryDetails(domain: String, callback: @escaping(Result<[CountryData], CountryError>) -> Void) {
-        let firstUrl = "https://restcountries.eu/rest/v2/name/"
+        let firstUrl = "https://restcountries.com/v2/name/"
         let pathName = String(firstUrl + domain)
         let Url = pathName.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!
         let url = URL(string: Url)!

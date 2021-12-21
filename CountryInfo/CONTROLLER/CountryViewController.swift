@@ -79,7 +79,7 @@ class CountryViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     var countries = [Country]()
 
     func getCountries() {
-        let url = URL(string: "https://restcountries.eu/rest/v2/all")
+        let url = URL(string: "https://restcountries.com/v2/all")
         URLSession.shared.dataTask(with: url!) { (data, response, error) in
          DispatchQueue.main.async {
             if error == nil {
